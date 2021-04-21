@@ -1,0 +1,425 @@
+@time: 9s;
+@track: esae;
+//@count:infinite;
+//@mode:normal;
+@count:1;
+@mode:forwards;
+
+
+// 第一行
+.song_item_left_1 {
+  animation: songItemAnimLeft1 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+
+@keyframes songItemAnimLeft1 {
+  0% {
+    opacity:1;
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  40%, 100% {
+    opacity: 0;
+    transform: translateX(-70%);
+  }
+}
+
+.song_item_middle_1 {
+  animation: songItemAnimMiddle1 @time ;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+
+@keyframes songItemAnimMiddle1 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  40%, 60% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  80%, 100% {
+    opacity: 0;
+    transform: translateX(-170%);
+  }
+}
+
+
+.song_item_right_1 {
+  animation: songItemAnimRight1 @time ;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+@keyframes songItemAnimRight1 {
+
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  40%, 60% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  80%, 100% {
+    opacity: 1;
+    transform: translateX(-200%);
+  }
+
+}
+
+
+// 第二行
+.song_item_left_2 {
+  animation: songItemAnimLeft2 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+
+@keyframes songItemAnimLeft2 {
+  0% {
+    opacity: 1;
+  }
+  22.5% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+
+  42.5%, 100% {
+    opacity: 0;
+    transform: translateX(-70%);
+  }
+}
+
+.song_item_middle_2 {
+  animation: songItemAnimMiddle2 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+
+@keyframes songItemAnimMiddle2 {
+  0% {
+    opacity: 0;
+  }
+  22.5% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  42.5%, 62.5% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  82.5%, 100% {
+    opacity: 0;
+    transform: translateX(-170%);
+  }
+}
+
+
+.song_item_right_2 {
+  animation: songItemAnimRight2 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+@keyframes songItemAnimRight2 {
+
+  0% {
+    opacity: 0;
+  }
+  22.5% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+
+  42.5%, 62.5% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  82.5%, 100% {
+    opacity: 1;
+    transform: translateX(-200%);
+  }
+
+}
+
+
+// 第三行
+.song_item_left_3 {
+  animation: songItemAnimLeft3 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+
+@keyframes songItemAnimLeft3 {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+
+  45%, 100% {
+    opacity: 0;
+    transform: translateX(-70%);
+  }
+}
+
+.song_item_middle_3 {
+  animation: songItemAnimMiddle3 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+
+@keyframes songItemAnimMiddle3 {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+
+  45%, 65% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  85%, 100% {
+    opacity: 0;
+    transform: translateX(-170%);
+  }
+}
+
+
+.song_item_right_3 {
+  animation: songItemAnimRight3 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+@keyframes songItemAnimRight3 {
+
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+
+
+  45%, 65% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  85%, 100% {
+    opacity: 1;
+    transform: translateX(-200%);
+  }
+
+}
+
+
+// 第四行
+.song_item_left_4 {
+  animation: songItemAnimLeft4 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+
+@keyframes songItemAnimLeft4 {
+  0% {
+    opacity: 1;
+  }
+
+  27.5% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  47.5%, 100% {
+    opacity: 0;
+    transform: translateX(-70%);
+  }
+}
+
+.song_item_middle_4 {
+  animation: songItemAnimMiddle4 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+
+@keyframes songItemAnimMiddle4 {
+
+  0% {
+    opacity: 0;
+  }
+
+  27.5% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+
+  47.5%, 67.5% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  87.5%, 100% {
+    opacity: 0;
+    transform: translateX(-170%);
+  }
+}
+
+
+.song_item_right_4 {
+  animation: songItemAnimRight4 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+@keyframes songItemAnimRight4 {
+
+  0% {
+    opacity: 0;
+  }
+
+  27.5% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+
+  47.5%, 67.5% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  87.5%, 100%{
+    opacity: 1;
+    transform: translateX(-200%);
+  }
+
+}
+
+
+// 第五行
+.song_item_left_5 {
+  animation: songItemAnimLeft5 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+
+@keyframes songItemAnimLeft5 {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  50%, 100% {
+    opacity: 0;
+    transform: translateX(-70%);
+  }
+}
+
+.song_item_middle_5 {
+  animation: songItemAnimMiddle5 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+
+@keyframes songItemAnimMiddle5 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  50%, 70% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  90%, 100% {
+    opacity: 0;
+    transform: translateX(-170%);
+  }
+}
+
+
+.song_item_right_5 {
+  animation: songItemAnimRight5 @time;
+  animation-timing-function: @track;
+  animation-iteration-count:@count;
+  animation-fill-mode:@mode;
+}
+
+@keyframes songItemAnimRight5 {
+
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  50%, 70% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  90%, 100% {
+    opacity: 1;
+    transform: translateX(-200%);
+  }
+
+}
+
+
+
+
+
+
+
+
